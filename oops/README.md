@@ -35,3 +35,15 @@ dept = Department(t1)
 print(dept.teacher.name)
 
 ```
+
+**Class Diagram**
+
+The diagram below demonstrates aggregation using another example (`Customer` and `Address`) for clarity.
+
+![Aggregation Class Diagram](images/aggregation_class_diagram.png)
+
+#### **Explanation**
+
+- `Customer` has an `Address` (has-a relationship).
+- The hollow diamond represents aggregation.
+- Both classes can exist independently.
