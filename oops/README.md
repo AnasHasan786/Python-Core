@@ -2,7 +2,7 @@
 
 This repository contains my practice implementations and notes on important OOP concepts in Python.
 
-### **Aggregation**
+### **<u>Aggregation</u>**
 
 Aggregation is a relationship between two classes where one class uses or contains an object of another class, but both can exist independently.
 
@@ -47,3 +47,42 @@ The diagram below demonstrates aggregation using another example (`Customer` and
 - `Customer` has an `Address` (has-a relationship).
 - The hollow diamond represents aggregation.
 - Both classes can exist independently.
+
+
+### **<u>Inheritance</u>**
+
+Inheritance is an OOP concept where one class acquired the properties and methods of another class. It represents an is-a relationship.
+
+**Key idea of inheritance**
+
+- It promotes code reusability.
+- Helps in building relationships.
+- Child class can reuse and extend parent class functionality.
+
+**Basic Example**
+
+```python
+class Animal:
+    def speak(self):
+        print("Animal makes a sound")
+    
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks")
+
+d = Dog()
+d.speak()
+d.bark()
+```
+**Class Diagram**
+
+The diagram below demonstrates inheritance using another example (`Customer` and `Address`) for clarity.
+
+![Inheritance Class Diagram](images/inheritance_class_diagram.png)
+
+**Types of Inheritance**
+
+1. `Single Inheritance:` One child class inherits from one parent class.
+2. `Multiple Inheritance:` One child class inherits from more than one parent class.
+3. `Multiple Inheritance:` A class inherits from a class that is already a child class.
+4. `Hierarchical Inheritance:` Multiple child classes inherit from one parent class.
