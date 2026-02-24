@@ -1,5 +1,4 @@
 # using with keyword
-
 with open("/content/sample.txt", "w") as f:
     f.write("Salman Khan")
 
