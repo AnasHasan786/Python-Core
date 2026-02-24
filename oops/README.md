@@ -76,7 +76,7 @@ d.bark()
 ```
 **Class Diagram**
 
-The diagram below demonstrates inheritance using another example (`Customer` and `Address`) for clarity.
+The diagram below demonstrates inheritance for visual clarity.
 
 ![Inheritance Class Diagram](images/inheritance_class_diagram.png)
 
