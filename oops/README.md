@@ -86,3 +86,43 @@ The diagram below demonstrates inheritance for visual clarity.
 2. `Multiple Inheritance:` One child class inherits from more than one parent class.
 3. `Multiple Inheritance:` A class inherits from a class that is already a child class.
 4. `Hierarchical Inheritance:` Multiple child classes inherit from one parent class.
+
+
+### **<u>Abstraction</u>**
+
+Abstraction is the concept of hiding implementation details and showing only essential features of an object.
+
+Basically, it focuses on what an object does, not how it does it.
+
+In Python, abstraction is commonly implemented using:
+
+- Abstract class
+- The `abc` module
+- Abstract methods
+
+**Example using Abstract Base Class**
+
+```python
+from abc import ABC, abstractmethod
+
+class Vehicle(ABC):
+
+    @abstractmethod
+    def start_engine(self):
+        pass
+
+class Car(Vehicle):
+
+    def start_engine(self):
+        return "Car engine started"
+
+c = Car()
+print(c.start_engine())
+```
+
+**Explanation**
+
+- `Vehicle` is an abstract class (inherits from `ABC`).
+- `start_engine()` is an abstract method.
+- Any class inheriting from `Vehicle` must implement `start_engine()`.
+- We cannot create an object of `Vehicle` directly.
