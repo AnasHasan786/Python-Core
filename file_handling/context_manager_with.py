@@ -1,10 +1,10 @@
 # using with keyword
-with open("/content/sample.txt", "w") as f:
+with open("sample.txt", "w") as f:
     f.write("Salman Khan")
 
 
 # trying to read a file with 'with' keyword
-with open("/content/sample_1.txt", "r") as f:
+with open("sample_1.txt", "r") as f:
     print(f.read())
 
 
