@@ -109,6 +109,7 @@ class Student:
 
 s1 = Student("Rahul")
 s2 = Student("Ajay")
+```
 
 Here:
 - `school_name` is shared by all students.
