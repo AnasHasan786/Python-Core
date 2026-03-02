@@ -87,6 +87,12 @@ The diagram below demonstrates inheritance for visual clarity.
 3. `Multiple Inheritance:` A class inherits from a class that is already a child class.
 4. `Hierarchical Inheritance:` Multiple child classes inherit from one parent class.
 
+#### **<u>Super keyword</u>**
+
+- Using `super keyword`, we can call the parent class constructor even if there is already child class constructor defined.
+- super is called always inside the child class constructor.
+- super can't access the variables, it can only access the methods.
+
 
 ### **<u>Abstraction</u>**
 
