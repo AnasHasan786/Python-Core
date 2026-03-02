@@ -1,6 +1,6 @@
 # working with binary file
-with open("images\cat.jpg", "rb") as f:
-    with open("images\cat_copy.jpg", "wb") as wf:
+with open("images\cat.png", "rb") as f:
+    with open("images\cat_copy.png", "wb") as wf:
         wf.write(f.read())
 
 
