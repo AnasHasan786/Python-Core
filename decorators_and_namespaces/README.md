@@ -207,7 +207,7 @@ Example:
 print(len("Python"))
 ```
 
-##### Viewing Namespaces
+### Viewing Namespaces
 
 #### Local Namespace
 
@@ -249,7 +249,7 @@ Output:
 20
 ```
 
-# Summary
+### Summary
 
 | Concept | Description |
 |------|-------------|
