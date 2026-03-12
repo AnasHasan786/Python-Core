@@ -217,3 +217,169 @@ a = None
 print(a)
 ```
 
+### **Operators in Python**
+
+Operators are used to perform some operation between the operands.
+
+```python
+### Arithmetic Operators
+print(2+3)
+print(2-3)
+print(2*3)
+print(3/2)
+print(3//2)
+print(3%2)
+print(3**2)
+```
+
+```python
+### Relational Operators
+print(4>5)
+print(4<5)
+print(4>=4)
+print(4==4)
+print(4!=4)
+```
+
+```python
+### Logical Operators
+print(1 and 0)
+print(1 or 0)
+print(not 1)
+```
+
+```python
+### Bitwise Operators
+
+# bitwise and
+print(2 & 3)
+
+# bitwise or
+print(2 | 3)
+
+# bitwise xor
+print(2 ^ 3)
+
+# bitwise not
+print(~3)
+
+# bitwise right shift
+print(4 >> 2)
+
+# bitwise left shift
+print(5 << 2)
+```
+
+```python
+### Assignment Operators
+a = 2
+a += 2
+
+print(a)
+```
+
+```python
+### Membership Operators
+
+# in/not in
+print('A' in 'Antara')
+```
+
+### **if-else in Python**
+
+```python
+### Finding min of 3 number using if-else conditions
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+c = int(input("Enter the third number: "))
+
+if a < b and a < c:
+    print("a is the minimum!!")
+elif b < a and b < c:
+    print("b is the minimum!!")
+else:
+    print("c is the minimum!!")
+```
+
+### **Modules in Python**
+
+```python
+# math
+import math
+math.factorial(5)
+```
+
+```python
+# keyword
+import keyword
+print(keyword.kwlist)
+```
+
+```python
+# random
+import random
+print(random.randint(1, 100))
+```
+
+```python
+# datetime
+import datetime
+print(datetime.datetime.now())
+```
+
+### **Loops**
+
+To repeat a task multiple times, we used a loop.
+
+There are 2 types of loops in Python:-
+
+- While loop
+- For loop
+
+```python
+# Program to print a table using while loop
+num = int(input("Enter a number: "))
+
+i = 1
+
+while i<=10:
+    print(num, 'x', i, '=', num*i)
+    i += 1
+```
+
+```python
+# For loop
+for i in range(1, 11, 2):
+    print(i)
+```
+
+```python
+# Nested loop
+for i in range(1, 5):
+    for j in range(1, 5):
+        print(i, j)
+```
+
+#### **Loop Control Statement**
+
+```python
+# break
+for i in range(1, 10):
+    if i == 7:
+        break
+    print(i)
+```
+
+```python
+# Continue
+for i in range(1, 10):
+    if i == 5:
+        continue
+    print(i)
+```
+
+```python
+# Pass
+for i in range(1, 10):
+    pass
+```
